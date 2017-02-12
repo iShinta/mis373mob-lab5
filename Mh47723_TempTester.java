@@ -7,9 +7,9 @@ public class Mh47723_TempTester{
     t1.setCelsius(28);
     t2.setFahrenheit(100);
     t2.setCelsius(0);
-    System.out.println(t1.getAsCelsius());
-    System.out.println(t1.getAsFahrenheit());
-    System.out.println(t2.getAsCelsius());
-    System.out.println(t2.getAsFahrenheit());
+    System.out.format("C%.2f\n", t1.getAsCelsius());
+    System.out.format("F%.2f\n", t1.getAsFahrenheit());
+    System.out.format("C%.2f\n", t2.getAsCelsius());
+    System.out.format("F%.2f\n", t2.getAsFahrenheit());
   }
 }

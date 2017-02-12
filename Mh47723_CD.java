@@ -4,9 +4,9 @@ public class Mh47723_CD{
 
   public void addAnnualInterest(){
     double interest = this.balance * rate;
-    System.out.println(interest + "has been added to your balance.");
+    System.out.format("$%.2f has been added to your balance.\n", interest);
     this.balance += interest;
-    System.out.println("The new balance is now $" + balance);
+    System.out.format("The new balance is now $%.2f\n", this.balance);
   }
 
   public String getBalance(){
